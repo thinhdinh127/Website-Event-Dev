@@ -26,7 +26,7 @@ git checkout -b feature-login
 
 **Push nhánh lên GitHub:**
 ```sh
-git push origin feature-ten-nhanh
+git push origin ten-nhanh
 ```
 
 ## 3. Cập nhật code mới nhất từ `main`
@@ -38,7 +38,7 @@ git pull origin main
 ```
 Sau đó, chuyển sang nhánh đang làm việc và merge code mới:
 ```sh
-git checkout feature-ten-nhanh
+git checkout ten-nhanh
 git merge main
 ```
 Giải quyết xung đột (nếu có), rồi commit lại:
@@ -49,14 +49,14 @@ git commit -am "Fix conflict"
 ## 4. Push code lên GitHub
 Sau khi làm xong, đẩy code lên GitHub:
 ```sh
-git push origin feature-ten-nhanh
+git push origin ten-nhanh
 ```
 
 ## 5. Tạo Pull Request (PR)
 
 Vào GitHub, vào repository `website-event`, chọn **Pull Requests**, nhấn **New Pull Request**:
 - Chọn **base branch** là `main`
-- Chọn **compare branch** là `feature-ten-nhanh`
+- Chọn **compare branch** là `ten-nhanh`
 - Nhấn **Create Pull Request**
 - Thêm mô tả về thay đổi của bạn và gửi yêu cầu
 
@@ -69,8 +69,8 @@ Vào GitHub, vào repository `website-event`, chọn **Pull Requests**, nhấn *
 ## 7. Xóa nhánh sau khi merge
 Sau khi PR đã được merge, bạn có thể xóa nhánh cũ:
 ```sh
-git branch -d feature-ten-nhanh
-git push origin --delete feature-ten-nhanh
+git branch -d ten-nhanh
+git push origin --delete ten-nhanh
 ```
 
 ---
@@ -79,4 +79,4 @@ git push origin --delete feature-ten-nhanh
 - Luôn cập nhật code mới nhất từ `main` trước khi làm việc.
 - Viết commit message rõ ràng, mô tả cụ thể thay đổi.
 
-Chúc mọi người làm việc hiệu quả! 🚀
+Chúc mọi người làm việc hiệu quả! Anh em 10 điểm 🚀
