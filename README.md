@@ -7,10 +7,9 @@
 
 Nếu bạn chưa có repository trên máy, chạy lệnh sau:
 ```sh
-git clone https://github.com/your-org/website-event.git
+git clone https://github.com/thinhdinh127/Website-Event-Dev.git
 cd website-event-dev
 ```
-Thay `your-org` bằng tên tổ chức hoặc tài khoản GitHub của bạn.
 
 ## 2. Tạo nhánh riêng để làm việc
 
