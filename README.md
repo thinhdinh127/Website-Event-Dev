@@ -17,11 +17,11 @@ Mỗi thành viên cần làm việc trên nhánh riêng, không push trực ti�
 
 **Tạo nhánh mới:**
 ```sh
-git checkout -b feature-ten-nhanh
+git checkout -b ten-nhanh
 ```
 Ví dụ:
 ```sh
-git checkout -b feature-login
+git checkout -b ThinhDinh
 ```
 
 **Push nhánh lên GitHub:**
